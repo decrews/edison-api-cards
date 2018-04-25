@@ -1,0 +1,58 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background: #e2e1e0;
+  margin-top: 5em;
+}
+
+.content-card {
+  margin: 1em 1em;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+
+  font-size: 0.9em;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.navbar-brand {
+  text-align: center;
+  color: white !important;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 0.4rem !important;
+}
+
+.card-title {
+  margin: 0.4em 0.4em 0.4em 0.4em;
+}
+
+.card-block {
+  margin: 0.8em 0.8em 0.8em 0.8em;
+}
+
+
+.cardTrans-exit.cardTrans-exit-active {
+  opacity: 0.01;
+  transition: opacity 0ms ease-in;
+}
+
+.cardTrans-enter {
+  opacity: 0.01;
+}
+
+.cardTrans-enter.cardTrans-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.cardTrans-exit {
+  opacity: 1;
+}
+
+.cardTrans-exit.cardTrans-exit-active {
+  opacity: 0.01;
+  transition: opacity 0ms ease-in;
+}
